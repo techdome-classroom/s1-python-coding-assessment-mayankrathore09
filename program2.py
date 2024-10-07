@@ -23,4 +23,4 @@ def decode_message( s: str, p: str) -> bool:
                                 dp[i][j] = dp[i - 1][j] or dp[i][j - 1]
     
     
-        return  dp[m][n]
+        return dp[m][n]
